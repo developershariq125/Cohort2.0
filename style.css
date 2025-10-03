@@ -174,7 +174,7 @@ button.btn-2:hover {
 }
 .column {
   flex: 1;
-  min-height: 670px;
+  min-height: 680px;
   background-size: cover;
   background-position: bottom center; /* neeche set karo jaise Apple me */
   background-repeat: no-repeat;
