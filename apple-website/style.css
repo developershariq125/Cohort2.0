@@ -1,0 +1,110 @@
+@font-face {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 100;
+  src: local("☺"),
+    url("/wss/fonts/SF-Pro-Display/v3/sf-pro-display_ultralight.woff2")
+      format("woff2"),
+    url("/wss/fonts/SF-Pro-Display/v3/sf-pro-display_ultralight.woff")
+      format("woff"),
+    url("/wss/fonts/SF-Pro-Display/v3/sf-pro-display_ultralight.ttf")
+      format("truetype");
+  /* (C) 2019 Apple Inc. All rights reserved.
+ */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+nav {
+  background-color: rgb(24, 24, 24);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 13px;
+}
+
+nav h4 {
+  color: #c7c7c7;
+  margin: 0 15px;
+  font-weight: 200;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 15px;
+}
+
+#hero {
+  height: 81vh; /* full screen jesa effect */
+  background-image: url("https://www.apple.com/v/home/ch/images/heroes/iphone-17-pro/hero_iphone_17_pro__bknyzxfk2agi_large_2x.jpg");
+  background-position: center;
+  background-size: cover; /* contain ki jagah cover use karo */
+  background-repeat: no-repeat;
+  color: whitesmoke;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+#hero h2,
+p {
+  font-family: "SF Pro Display", sans-serif;
+}
+
+.title {
+  margin-top: 30px;
+}
+
+.headline {
+  font-size: 58px;
+  font-weight: 500;
+}
+
+.sub-head {
+  font-size: 28px;
+  font-weight: 200;
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  align-items: center;
+}
+
+button.btn-1 {
+  background-color: #0071e3;
+  padding: 11px 21px;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  font-size: 17px;
+  font-weight: 200;
+  cursor: pointer;
+}
+
+button.btn-2 {
+  color: #2997ff;
+  border-color: #2997ff;
+  background-color: transparent;
+  padding: 11px 21px;
+  border-color: #2997ff;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 200;
+  transition: transform all 0.3s ease-in-out;
+}
+
+button.btn-1:hover {
+  background-color: #005bb5;
+}
